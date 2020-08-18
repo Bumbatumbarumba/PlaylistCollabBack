@@ -11,4 +11,3 @@ mongoose.connect(mongoDb, {
 var db = mongoose.connection
 
 db.on("error", console.error.bind(console, "MongoDB connection error"))
-console.log("test")
